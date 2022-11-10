@@ -16,10 +16,10 @@ With the script `create_bucket.py` you can create buckets via your CLI.
 <br>
 
 ### Example
-> Create a bucket in the region ***US-CENTRAL1*** (Iowa) with the name ***my_gcp_bucket_deloitte*** and the storage class ***COLDLINE*** (minimum storage duration: 90 days)
+> Create a bucket in the region ***US-CENTRAL1*** (Iowa) with the name ***my_gcp_bucket*** and the storage class ***COLDLINE*** (minimum storage duration: 90 days)
 
 ```
-python create_bucket.py --name my_gcp_bucket_deloitte --storage_class COLDLINE --region US-CENTRAL1
+python create_bucket.py --name my_gcp_bucket --storage_class COLDLINE --region US-CENTRAL1
 ```
 
 <br>
@@ -29,3 +29,4 @@ python create_bucket.py --name my_gcp_bucket_deloitte --storage_class COLDLINE -
 <br>
 
 ## Upload files
+TBD
